@@ -3,8 +3,8 @@ maven:
 	mvn compile
 	mvn install
 
-pitest:z
+pitest:
 	mvn eu.stamp-project:pitmp-maven-plugin:run
 
 run:
-	java -cp target/LibraryWorkshopProject-1.0-SNAPSHOT.jar org.example.App
+	java -cp target/LMS-1.0-SNAPSHOT.jar org.example.App
